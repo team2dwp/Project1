@@ -1,60 +1,169 @@
-/* The sidebar menu */
-body{
+*{
   margin: 0;
   padding: 0;
-  font-family:  sans-serif;
+  font-family: sans-serif;
 }
-header{
-  position: fixed;
-  background: #22242A;
-  padding: 20px;
+.home{
+  height: 100%;
   width: 100%;
-  height: 30px;
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0,0.1)), url(B1.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.home2{
+  height: 100%;
+  width: 100%;
+  background-image: url(B3.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.input{
+  width: 340px;
+  height: 600px;
+  position: relative;
+  margin: auto;
+  margin-right: 50px;
+  background: #fff;
+  padding: 5px ;
+
+}
+.input2{
+  width: 340px;
+  height: 600px;
+  position: relative;
+  margin: 1px auto;
+
+  background: #fff;
+  padding: 10px ;
+}
+.tab{
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+
+}
+.toggle-btn{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  border-radius: 30px;
+  outline: none;
+  position: relative;
 }
 
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 250px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+#btn{
+  top:0;
   left: 0;
-  background: #DD570E;
-  margin-top: 40px;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  color: white;
-  font-size: 15px;
-  
+  position; absolute;
+  width: 110px;
+  height; 100%;
+  background: linear-gradient(to right, #ff105f,#ffad06);
+  border-radius: 30px;
+  transition: .5s;
 }
-
-a{
-	color: white;
-  font-size: 20px;
+.detail{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
 }
+.input-field{
+  width: 100%;
+  padding: 10px 10px;
+  margin: 5px 20px;
+  border-width: 1px 1px;
+  outline: none;
+  background: transparent;
 
-/* The navigation menu links */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
+}
+.chech-box{
+  margin: 30px 10px 30px 0;
+
+}
+.submit-btn{
+  width: 85%;
+  padding:10px 30px;
+  cursor: pointer;
   display: block;
+  margin: auto;
+  margin-left: 50px;
+  background: linear-gradient(to right, #ff105f,#ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 20px;
+
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #A9A9A9;
+.label1{
+  font-size: 15px;
+  font-family: serif;
+
 }
 
-/* Style page content */
-.main {
-  margin-left:270px; 
-  padding: 0px 10px;
+.Contact-box{
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+  top: 40%;
+  left: 75%;
+  transform: translate(-50%,-50%);
+  position: absolute;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+.form{
+  margin: 35px;
+
+}
+
+.input-field2{
+  width: 400px;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.textarea-field{
+  height: 150px;
+  padding-top: 10px;
+}
+
+.buttn{
+  border-radius: 20px;
+  colour: #fff;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 350px;
+  padding: 10px;
+  background-color: #47c35a;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-bar{
+  background: transparent;
+  text-align: center;
+}
+
+.menu-bar ul
+{
+  display: inline-flex;
+
+}
+
+.menu-bar ul li
+{
+  width: 120px;
+  margin: 10px;
+  padding: 1px;
 }
