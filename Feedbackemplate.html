@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <Style>  
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+    input[type=button]  {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+      cursor: pointer;}
+    
+    
+    body {
+    
+    background-color: Darkgray;
+   }  
+ 
+      input[type=text],textarea {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+        resize: vertical;}
+  
+       
+    
+  h2 {
+  text-align: center;
+}
+  h4 {
+  text-align: left;
+}
+  p {
+  text-align: left;
+}
+  h2 {
+    color: black;
+    font-family: Sans-serif;
+    font-size: 100%;     
+}
+      
+  p {
+    color: black;
+    font-family: Sans-serif;
+    font-size: 100%;
+  
+  </Style>
+      </head>
+  <body> 
+    
+    <h2>HappyTech Company</h2>
+     <fieldset>
+    
+      <form action="/action_page.php">
+       <h4><Label for "= Name">Name of Applicant</Label> 
+       <input type="text" id="fname" name="firstname" placeholder = "Surname first">
+       <br> </h4>
+      <h4><Label for "= Name">Position Applied For</Label> 
+       <input type="text" id="fname" name="Position"> <br></h4>
+       <h4><label for="dates">Date of Interview:</label>
+  <input type="text" id="date" name="date" Placeholder= dd-mm-yyyy> <br> </h4>
+      <h4><Label for "= Name">Name of the Reviewing Officer</Label> 
+      <input type="text" id="fname" name="firstname" Placeholder = "Surname first"> <br> </h4>
+      
+       </fieldset> <br>
+       
+      <fieldset>
+        <p> Kindly assess the applicants on the following criteria : </p>
+        <p> 1. Education (Please check appropriately)<br><br> </p>
+                   
+        <p><input type="checkbox" id="Option1" name="Education" value="Education1">
+        <label for="Option1"> You have the right educational qualification as advertised</label><br></p>
+       <p><input type="checkbox" id="Option2" name="Education" value="Education2">
+       <label for="Option2"> Your educational qualification does not match what was advertised </label><br> </p>
+       <p><input type="checkbox" id="Option3" name="Education3" value="Education">
+       <label for="Option3"> Your educational qualification was obtained more than five years ago</label><br></p>
+       <p><input type="checkbox" id="Option4" name="Education4" value="Education">
+       <label for="Option4"> Your educational qualification has not been uploaded</label><br><br> </p>
+        <p> Additional comments: </p>
+          
+       <textarea rows="4" cols="50" placeholder="Add comments here..."></textarea>
+        
+        
+  <p> 2. Technical Skills (Please check appropriately)<br><br> </p>
+                   
+        <p><input type="checkbox" id="Option1" name="Education" value="Education1">
+        <label for="Option1"> Your technical skills match what we need</label><br></p>
+       <p><input type="checkbox" id="Option2" name="Education" value="Education2">
+       <label for="Option2"> Your skills are not inline with what was advertised </label><br> </p>
+       <p><input type="checkbox" id="Option3" name="Education3" value="Education">
+       <label for="Option3"> Your Skills are not sufficient for the role</label><br></p>
+       <p><input type="checkbox" id="Option4" name="Education4" value="Education">
+       <label for="Option4"> Your are required to demonstrate your skills</label><br><br> </p>
+        <p> Additional comments: </p>
+          
+       <textarea rows="4" cols="50" placeholder="Add comments here..."></textarea>
+              
+    <p> 3. Communication Skills (Please check appropriately)<br><br> </p>
+                   
+        <p><input type="checkbox" id="Option1" name="Education" value="Education1">
+        <label for="Option1"> You have the right skills we want </label><br></p>
+       <p><input type="checkbox" id="Option2" name="Education" value="Education2">
+       <label for="Option2"> Your Commnications skills are not sufficient for the role </label><br> </p>
+      
+        <p> Additional comments: </p>
+          
+       <textarea rows="4" cols="50" placeholder="Add comments here..."></textarea> <br><br>
+            
+     <input type="button" value="Save">
+        
+       </form> 
+  </body>
+</html>
